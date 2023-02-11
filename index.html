@@ -10,7 +10,7 @@
 
     <link rel="stylesheet" href="assets/css/minified.css" />
     <link rel="stylesheet" href="assets/css/whatsapp-chat-support.css" />
-    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />
   </head>
 
   <body id="inicio">
@@ -109,7 +109,7 @@
             <li>
               <a href="#preguntas-frecuentes">Preguntas Frecuentes</a>
             </li>
-            <li class="d-none d-sm-inline-block d-lg-none">
+            <li class="d-sm-inline-block d-lg-none">
               <a href="#contacto">Contacto</a>
             </li>
           </ul>
@@ -175,14 +175,28 @@
     <!--============= Advance Feature Section Starts Here =============-->
     <section
       id="nosotros"
-      class="advance-feature-section padding-top-2 padding-bottom-2"
+      class="advance-feature-section padding-top-2"
     >
+      <style>
+        @media (max-width: 991px) {
+          #nosotros,
+          .section-header h5,
+          .section-header h2,
+          .section-header p {
+            justify-content: center;
+            text-align: center;
+          }
+          .advance-feature-thumb {
+            margin: 0 auto;
+          }
+        }
+      </style>
       <div class="container">
         <div class="advance-feature-item padding-top-2 padding-bottom-2">
           <div class="advance-feature-thumb">
             <img
               src="assets/images/sistemas/LOGO RENACER CIRCULO.png"
-              alt="logo-renacer-sistenas"
+              alt="logo-renacer-sistemas"
             />
           </div>
           <div class="advance-feature-content">
@@ -198,7 +212,7 @@
                 alumno de Ingeniería de Sistemas se sienta representado.
               </p>
             </div>
-            <a href="#propuestas" class="button-3"
+            <a href="#propuestas" class="button-3 text-white"
               >Nuestras propuestas <i class="fas fa-chevron-right"></i
             ></a>
           </div>
@@ -221,7 +235,7 @@
                 trabajar por y para los estudiantes de Ingeniería de Sistemas.
               </p>
             </div>
-            <a href="#contacto" class="button-3"
+            <a href="#contacto" class="button-3 text-white"
               >Contacta al equipo <i class="fas fa-chevron-right"></i
             ></a>
           </div>
@@ -759,7 +773,7 @@
     <!--============= Contact Section Ends Here =============-->
 
     <!--============= Footer Section Starts Here =============-->
-    <footer class="footer-section bg_img">
+    <footer>
       <div class="copyright">
         <p>Copyright &copy; <span id="year"></span> - Renacer Sistemas UNC</p>
       </div>
