@@ -240,12 +240,13 @@
   width: 100%;
   position: fixed;
   z-index: 999;
-  top: 10px;
   -webkit-transition: all ease 0.3s;
   -moz-transition: all ease 0.3s;
   transition: all ease 0.3s;
-  padding: 15px 0;
+  padding-top: 25px;
+  padding-bottom: 25px;
   color: #3b368c;
+  background: transparent;
 }
 .header-section .header-wrapper {
   justify-content: space-between;
@@ -462,7 +463,8 @@
 }
 .header-section.active {
   background: #3b319e;
-  top: 0;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 @media (max-width: 991px) {
   .header-section.active {
