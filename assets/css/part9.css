@@ -857,10 +857,9 @@ div[class*="col"]:nth-of-type(3n + 2) .pricing-item-4 .pricing-header::before {
   align-items: center;
 }
 .page-header-content .breadcrumb li a::after {
-  font-family: Flaticon;
   font-weight: 500;
   margin-left: 10px;
-  content: "\f104";
+  content: "\2192";
 }
 .page-header-content .breadcrumb li a:hover {
   color: #05c3de;
@@ -994,9 +993,11 @@ div[class*="col"]:nth-of-type(3n + 2) .pricing-item-4 .pricing-header::before {
 .team-item .team-content {
   text-align: center;
 }
+/*
 .team-item .team-content .title a:hover {
   color: #ee4730;
 }
+*/
 .team-item .team-content .info {
   display: block;
   margin-bottom: 20px;

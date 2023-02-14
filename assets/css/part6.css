@@ -2335,6 +2335,7 @@ h5 a,
 h6 a {
   color: #fff;
 }
+/*
 h1 a:hover,
 h2 a:hover,
 h3 a:hover,
@@ -2343,6 +2344,7 @@ h5 a:hover,
 h6 a:hover {
   color: #ee4730;
 }
+*/
 h1 {
   font-size: 42px;
 }
