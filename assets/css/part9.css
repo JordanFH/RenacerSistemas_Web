@@ -2496,7 +2496,7 @@ div[class*="col"]:nth-child(even) .team-item:hover .team-thumb::before {
   line-height: 1;
   text-shadow: 1.21px 4.851px 13.44px rgba(25, 83, 200, 0.37);
   color: #fff;
-  margin-bottom: 60px;
+  margin-bottom: 10px;
 }
 .error-wrapper .subtitle {
   color: #fff;
