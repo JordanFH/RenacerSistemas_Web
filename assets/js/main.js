@@ -145,7 +145,7 @@
         {
           scrollTop: 0,
         },
-        500
+        0
       );
       return false;
     });
