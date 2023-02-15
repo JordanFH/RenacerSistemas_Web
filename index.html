@@ -648,22 +648,31 @@
         >
           <div class="col-lg-7">
             <div class="contact-wrapper">
-              <form class="contact-form" id="contact_form_submit">
+              <form class="contact-form" action="https://formsubmit.co/renacersistemas@gmail.com" onsubmit="showMessage()" method="POST" id="contact_form_submit">
+                <input type="text" name="_honey" style="display: none" />
+                <input type="hidden" name="_captcha" value="false" />
+                <input
+                  type="hidden"
+                  name="_next"
+                  value="https://renacersistemas.me/"
+                />
                 <div class="form-group">
                   <label for="name">Nombre</label>
                   <input
                     type="text"
                     placeholder="Ingresa tu nombre"
                     id="name"
+                    name="name"
                     required
                   />
                 </div>
                 <div class="form-group">
                   <label for="email">Correo</label>
                   <input
-                    type="text"
+                    type="email"
                     placeholder="Ingresa tu correo"
                     id="email"
+                    name="email"
                     required
                   />
                 </div>
@@ -673,6 +682,8 @@
                     type="text"
                     placeholder="Tema a tratar"
                     id="subject"
+                    name="subject"
+                    maxlength="100"
                     required
                   />
                 </div>
@@ -681,7 +692,9 @@
                   <textarea
                     id="message"
                     placeholder="Cuéntanos. ¿En qué podemos ayudarte?"
+                    name="message"
                     required
+                    maxlength="500"
                   ></textarea>
                 </div>
                 <div class="form-group">
@@ -777,6 +790,10 @@
     <script src="assets/js/whatsapp-chat-support.js"></script>
     <script>
       $("#whatsapp").whatsappChatSupport();
+
+      function showMessage() {
+        alert("¡Correo enviado correctamente!");
+      }
     </script>
   </body>
 </html>
